@@ -13,8 +13,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    coordinates2d.cpp \
+    piece.cpp \
+    player.cpp \
+    game.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    coordinates2d.h \
+    piece.h \
+    player.h \
+    game.h
 
 FORMS    += mainwindow.ui
